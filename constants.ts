@@ -24,7 +24,9 @@ export const ADULT_DECKS: Section[] = [
       'How do you handle it when you feel God is silent or prayers aren\'t answered?',
       'What is your view on the relationship between science and faith?',
       'How do you handle doctrinal disagreements with your spouse?',
-      'What spiritual disciplines are non-negotiable for our home?'
+      'What spiritual disciplines are non-negotiable for our home?',
+      'How do you view the role of suffering in the Christian life?',
+      'What is your philosophy on personal evangelism?'
     ],
     prompts: [
       ['Can you explain the Gospel?', 'Is the Bible your final authority?'],
@@ -41,7 +43,9 @@ export const ADULT_DECKS: Section[] = [
       ['Trusting God\'s sovereignty.', 'Honesty in prayer.'],
       ['Creation, evolution, and medical care.'],
       ['Agreeing to disagree vs. unified teaching.'],
-      ['Fasting, solitude, study.']
+      ['Fasting, solitude, study.'],
+      ['Character building.', 'God\'s presence in pain.'],
+      ['Sharing faith.', 'Living as a witness.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   },
@@ -63,7 +67,9 @@ export const ADULT_DECKS: Section[] = [
       'What is your view on regular fasting and spiritual retreats?',
       'How should we handle it if one of us wants to change churches?',
       'How do we prioritize church life vs family gatherings?',
-      'How do we handle it if our spiritual growth rates differ?'
+      'How do we handle it if our spiritual growth rates differ?',
+      'What is our stance on hosting prayer or small groups in our home?',
+      'How do we support each other’s individual spiritual retreats?'
     ],
     prompts: [
       ['A duty or a delight?', 'Prioritizing fellowship.'],
@@ -78,7 +84,9 @@ export const ADULT_DECKS: Section[] = [
       ['Spiritual discipline.', 'Intentional quiet time.'],
       ['Theological alignment.', 'Community roots.'],
       ['Holiday commitments.', 'Kingdom first.'],
-      ['Patience and encouragement vs. Frustration.']
+      ['Patience and encouragement vs. Frustration.'],
+      ['Hospitality.', 'Building community.'],
+      ['Individual needs.', 'Sacrificing time.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   },
@@ -101,7 +109,9 @@ export const ADULT_DECKS: Section[] = [
       'What is your view on "date night" frequency and priority?',
       'If one of us is offered a dream job in another city, how do we decide?',
       'How do we handle our public image vs our private reality?',
-      'What is your view on "equal but different" in daily tasks?'
+      'What is your view on "equal but different" in daily tasks?',
+      'How do we handle seasons where one spouse is overwhelmed?',
+      'What is our definition of a "successful" home life?'
     ],
     prompts: [
       ['Biblical definitions.', 'Leadership as service.'],
@@ -117,7 +127,9 @@ export const ADULT_DECKS: Section[] = [
       ['Protecting the marriage from "busy-ness".'],
       ['Career sacrifice.', 'Family mission.'],
       ['Social media honesty.', 'Vulnerability.'],
-      ['Flexible roles based on giftings.']
+      ['Flexible roles based on giftings.'],
+      ['Supporting the weak.', 'Covenant loyalty.'],
+      ['Atmosphere.', 'Kingdom impact.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   },
@@ -140,7 +152,8 @@ export const ADULT_DECKS: Section[] = [
       'How involved should grandparents be in raising our children?',
       'How would we handle a child with special needs or chronic illness?',
       'What are your views on screen time and technology for kids?',
-      'How do we teach our children about money and stewardship?'
+      'How do we teach our children about money and stewardship?',
+      'What spiritual legacy do we want to pass on?'
     ],
     prompts: [
       ['Desire for legacy.', 'Ministry impact.'],
@@ -156,7 +169,8 @@ export const ADULT_DECKS: Section[] = [
       ['Setting boundaries with elders.'],
       ['Sacrificial parenting.', 'Trusting God in trials.'],
       ['Smartphones, social media, games.'],
-      ['Giving, saving, and contentment.']
+      ['Giving, saving, and contentment.'],
+      ['Faith values.', 'Life principles.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   },
@@ -178,7 +192,8 @@ export const ADULT_DECKS: Section[] = [
       'How will we care for aging parents in the future?',
       'How do we handle parents who use guilt to get their way?',
       'What are the boundaries regarding parents having a key to our home?',
-      'How do we handle financial requests from extended family members?'
+      'How do we handle financial requests from extended family members?',
+      'How do we protect our spouse from our own parents\' criticism?'
     ],
     prompts: [
       ['Leaving and cleaving.', 'Honoring with boundaries.'],
@@ -193,139 +208,8 @@ export const ADULT_DECKS: Section[] = [
       ['Housing and health care plans.'],
       ['Emotional manipulation.', 'Firm grace.'],
       ['Privacy boundaries.', 'Unannounced visits.'],
-      ['Saying "No" with love.']
-    ],
-    userAAnswers: [], userBAnswers: [], isLocked: false
-  },
-  {
-    id: 'patterns',
-    title: '6. Family Patterns',
-    icon: '🌳',
-    description: 'Learning from the past and breaking cycles.',
-    questions: [
-      'What did you admire about your parents’ marriage?',
-      'What do you NOT want to repeat from your home?',
-      'How was conflict handled in your family?',
-      'How did your father treat your mother?',
-      'How did your mother speak about your father?',
-      'Was affection openly shown in your house?',
-      'Was money openly discussed or secretive?',
-      'What habits from your home do you want to continue?',
-      'What patterns must stop with us?',
-      'What was the typical atmosphere of your dinner table growing up?',
-      'How were "difficult emotions" (sadness, anger) handled?',
-      'What is your relationship with your siblings like now?'
-    ],
-    prompts: [
-      ['Strengths.', 'Lasting values.'],
-      ['Weaknesses.', 'Generational sins.'],
-      ['Silence vs. Fighting.', 'Apology style.'],
-      ['Service and respect.', 'Leadership style.'],
-      ['Support vs. Undermining.', 'Tone of voice.'],
-      ['Physical touch.', 'Affirmation.'],
-      ['Transparency.', 'Financial fear.'],
-      ['Prayer, meals, visits.', 'Faithfulness.'],
-      ['Anger, addiction, neglect.'],
-      ['Communication.', 'Warmth vs. Tension.'],
-      ['Emotional intelligence check.'],
-      ['Family support vs. Drain.']
-    ],
-    userAAnswers: [], userBAnswers: [], isLocked: false
-  },
-  {
-    id: 'lifestyle',
-    title: '7. Lifestyle & Money',
-    icon: '💰',
-    description: 'Financial stewardship and expectations.',
-    questions: [
-      'Do we want to own a home or rent?',
-      'What type of area do you want to live in?',
-      'How many vehicles do we need?',
-      'What is your attitude toward loans and debt?',
-      'How do we make big financial decisions?',
-      'How much should we save monthly?',
-      'How important is financial stability before marriage?',
-      'What is your view on salary expectations?',
-      'Do we have a "fun money" allowance for personal spending?',
-      'How much should we budget for charitable giving/missions?',
-      'What is our stance on lending money to family/friends?',
-      'What is our philosophy on inheritance and legacy?',
-      'How do we distinguish between "needs" and "wants"?'
-    ],
-    prompts: [
-      ['Investment vs. Mobility.', 'Long term goal.'],
-      ['Safety, commute, community.'],
-      ['Utility vs. Status.'],
-      ['Biblical view on debt.', 'Credit card usage.'],
-      ['Spending limit threshold.', 'Shared vision.'],
-      ['Emergency funds.', 'Future planning.'],
-      ['Minimum readiness.', 'Trusting God.'],
-      ['Peace of mind.', 'Lifestyle standard.'],
-      ['Autonomy.', 'Avoiding resentment.'],
-      ['Kingdom investment.', 'Sacrificial giving.'],
-      ['Protecting our unity.', 'Wisdom in helping.'],
-      ['Stewardship.', 'Generosity to future generations.'],
-      ['Contentment vs. Consumption.']
-    ],
-    userAAnswers: [], userBAnswers: [], isLocked: false
-  },
-  {
-    id: 'conflict',
-    title: '9. Conflict & Communication',
-    icon: '⚡',
-    description: 'Apology, forgiveness, and resolution.',
-    questions: [
-      'What usually makes you angry?',
-      'When upset, do you withdraw or confront?',
-      'How soon should we address issues?',
-      'Is it okay to sleep without resolving conflict?',
-      'Would you be open to counseling if needed?',
-      'How do you prefer to apologize and forgive?',
-      'What is your "fighting style" (loud, quiet, sarcastic)?',
-      'How do we know when we have truly reconciled?',
-      'What are our "forbidden words" in an argument?',
-      'How do we handle it if one of us is consistently "wrong"?',
-      'What is our plan for when we reach an absolute stalemate?',
-      'How do we protect our children from seeing unhealthy conflict?'
-    ],
-    prompts: [
-      ['Triggers.', 'Emotional health.'],
-      ['Silent treatment vs. Blow-up.'],
-      ['"Do not let the sun go down".', 'Processing time.'],
-      ['Emergency resolution.', 'Night-time peace.'],
-      ['Mentorship vs. Professional.', 'Preventative.'],
-      ['Love languages.', 'Restoring trust.'],
-      ['Self-awareness.', 'Emotional regulation.'],
-      ['Peace vs. Resolution.', 'Forgiveness check.'],
-      ['Name-calling, bringing up the past.'],
-      ['Grace vs. Correction.'],
-      ['Third-party counsel.', 'Humility.'],
-      ['United front.', 'Repairing after a fight.']
-    ],
-    userAAnswers: [], userBAnswers: [], isLocked: false
-  },
-  {
-    id: 'final',
-    title: '💍 The Final Question',
-    icon: '💍',
-    description: 'Covenant commitment.',
-    questions: [
-      'Why do you want to get married?',
-      'Are you ready for covenant responsibility, not just companionship?',
-      'If we faced financial hardship, infertility, illness, or persecution — would your commitment remain?',
-      'What is the one thing you are most afraid of in marriage?',
-      'Are you willing to pray for me every single day?',
-      'Do you believe this is God\'s leading for us?',
-      'Are you willing to change for the sake of our marriage?'
-    ],
-    prompts: [
-      ['Holiness vs. Happiness.', 'God\'s glory.'],
-      ['Sacrifice.', 'Dying to self.'],
-      ['Unconditional love.', 'Sovereign grace.'],
-      ['Vulnerability.', 'Sharing fears.'],
-      ['Spiritual support.', 'Intercession.'],
-      ['Peace of heart.', 'Mutual confirmation.'],
-      ['Flexibility.', 'Continuous growth.']
+      ['Saying "No" with love.'],
+      ['Loyalty.', 'Protecting the home.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   }
@@ -347,7 +231,9 @@ export const YOUNGER_DECKS: Section[] = [
       'Am I ready to prioritize another person\'s needs over my own?',
       'How do I handle my own loneliness right now?',
       'Can I name 3 things I am willing to change about myself for a spouse?',
-      'How do I manage my social media time and its impact on my mind?'
+      'How do I manage my social media time and its impact on my mind?',
+      'Am I a person of my word in small things?',
+      'How do I handle my ego when I am proved wrong?'
     ],
     prompts: [
       ['Think beyond happiness.', 'Biblical vision.'],
@@ -359,7 +245,9 @@ export const YOUNGER_DECKS: Section[] = [
       ['Selfishness check.'],
       ['God as first love.', 'Healthy solitude.'],
       ['Self-awareness.', 'Humility.'],
-      ['Comparison traps.', 'Digital peace.']
+      ['Comparison traps.', 'Digital peace.'],
+      ['Integrity check.'],
+      ['Teachable spirit.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   },
@@ -378,7 +266,8 @@ export const YOUNGER_DECKS: Section[] = [
       'How do I handle my parents\' expectations for my future?',
       'Am I living a lifestyle that I can sustain on my own?',
       'Do I have a plan for professional skill building?',
-      'How do I handle time management and laziness?'
+      'How do I handle time management and laziness?',
+      'Is my current usage of money pleasing to God?'
     ],
     prompts: [
       ['Delayed degrees?', 'Family support.'],
@@ -390,7 +279,8 @@ export const YOUNGER_DECKS: Section[] = [
       ['Honoring vs. Independence.'],
       ['Stewardship check.'],
       ['Entrepreneurship vs. Job.', 'Stability.'],
-      ['Discipline.', 'Productivity.']
+      ['Discipline.', 'Productivity.'],
+      ['Kingdom stewardship.']
     ],
     userAAnswers: [], userBAnswers: [], isLocked: false
   }
