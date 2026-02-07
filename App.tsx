@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { User, Room, UserGender, Intention } from './types';
+import { User, UserGender, Intention } from './types';
 import Landing from './components/Landing';
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -46,7 +46,6 @@ const App: React.FC = () => {
   };
 
   const handleQuickStart = (data: { firstName: string; age: number; gender: UserGender }) => {
-    // Thresholds: Men < 24, Women < 21
     const isPrep = (data.gender === UserGender.MALE && data.age < 24) || 
                    (data.gender === UserGender.FEMALE && data.age < 21);
 
